@@ -1,0 +1,9 @@
+---
+layout: default
+---
+
+<article>
+  <h1>{% raw %}{{ page.title }}{% endraw %}</h1>
+  <p>Published on {% raw %}{{ page.date | date: "%B %d, %Y" }}{% endraw %}</p>
+  {% raw %}{{ content }}{% endraw %}
+</article>

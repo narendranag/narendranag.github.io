@@ -2,6 +2,7 @@
 layout: post
 title: "Understanding Attention in Media: Three Cognitive Models"
 date: 2024-07-12 15:00:00 -0500
+categories: [media, psychology, attention]
 ---
 
 The only truly finite asset is human attention — to be able to capture it is the single most important objective for both publishers and brands.
