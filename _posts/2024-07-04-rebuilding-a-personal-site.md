@@ -2,7 +2,6 @@
 layout: post
 title:  "Rebuilding a personal site"
 date:   2024-07-04 16:10:05 -0500
-categories: technical update
 ---
 It's been twenty-five years since I published my first personal site. That first attempt can still be found in the internet archive, and the braver amongst you can go have a look. 
 
