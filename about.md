@@ -1,11 +1,8 @@
 ---
 layout: page
-title: About
+title: About Narendra
 permalink: /about/
 ---
-
-About Narendra
-
 For the last twenty-five years, Narendra has combined story-telling ability, technical knowledge and strategic thinking to deliver impact in the many roles he has had.
 
 In his current role as Chief Strategy Officer at APMC Inc.; Narendra is helping build the future of the media industry — addressing both the commercial and technical challenges of the transition from cable to streaming. 
