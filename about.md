@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-## About Narendra
+About Narendra
 
 For the last twenty-five years, Narendra has combined story-telling ability, technical knowledge and strategic thinking to deliver impact in the many roles he has had.
 
