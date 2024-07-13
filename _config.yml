@@ -21,12 +21,17 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://narendranag.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: narendranag
 github_username:  narendranag
-author: Narendra Nag
+linkedin: narendranag
+author: 
+  name: Narendra Nag
 # Build settings
 markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+
+#Display Settings
+show_excerpts: true
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
