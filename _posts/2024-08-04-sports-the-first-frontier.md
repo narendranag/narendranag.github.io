@@ -26,7 +26,7 @@ I can remember lazy summer afternoons spent watching sports on TV — games tha
 
 I became a fan because sports was on TV. You became a fan because sports was on TV.
 
-And today, the sports that easily available and freely viewable isn't what we grew up watching.
+And today, the sports that are easily available and freely viewable aren't what we grew up watching.
 
 It's e-sports. It's gaming. It's Mr. Beast's extravagant productions. It's Dude Perfect's trick shots. It's Youtube Golf (now that's a rabbit hole I've spent far too much time going down).
 
