@@ -1,7 +1,6 @@
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://narendranag.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
-
 markdown: kramdown
 
 theme: jekyll-theme-persephone
@@ -108,6 +107,14 @@ theme_setting:
 # Exclude the projects directory from Jekyll processing
 exclude:
   - projects
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
 
 # Include the projects directory in the final site
 include:
