@@ -21,6 +21,8 @@ gem "github-pages", "~> 231", group: :jekyll_plugins
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
+  gem "jekyll-seo-tag"
+  gem "jekyll-paginate"  # Use this instead of jekyll-paginate-v2 for GitHub Pages compatibility
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
