@@ -321,6 +321,8 @@ DEPENDENCIES
   github-pages (~> 231)
   http_parser.rb (~> 0.6.0)
   jekyll-feed (~> 0.6)
+  jekyll-paginate
+  jekyll-seo-tag
   jekyll-theme-persephone
   kramdown-parser-gfm
   tzinfo (>= 1, < 3)
