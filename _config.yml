@@ -1,27 +1,20 @@
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://narendranag.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
-# Build settings
+
 markdown: kramdown
 
-# theme: minima ## Changed on Aug 9, 2024
 theme: jekyll-theme-persephone
 
 plugins:
-#  - jekyll-feed
-- jekyll-paginate-v2
-
-
-# Site settings for the Persephone Theme copied from the theme's Github page
-
+  - jekyll-paginate
 
 title: Narendra Nag
 description: This is my personal website where I share essays, keep notes, publish projects and more
-email: me@narendranag.com
-
+# email: me@narendranag.com
 author: Narendra Nag
 
-# # Your social accounts.
+# Your social accounts.
 social:
    github: narendranag
 #   twitter: narendranag
@@ -30,7 +23,9 @@ social:
    linkedin: narendranag
 #   weibo: weibo_username
 
-# # Theme Settings
+
+
+# Theme Settings
 theme_setting:
 
     # # Your site's logo. Will be shown on the left top of your page.
@@ -55,7 +50,6 @@ theme_setting:
     nav_pages:
       - url: /archive
         title: Archive
- 
       - url: /about
         title: About
 #      - url: /projects/
@@ -124,4 +118,4 @@ keep_files:
   - projects
 
 # Optional: Set the permalink structure for your main Jekyll posts/pages
-permalink: /:year/:month/:day/:title:output_ext
+# permalink: /:year/:month/:day/:title:output_ext
