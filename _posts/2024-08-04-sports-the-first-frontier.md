@@ -1,11 +1,9 @@
 ---
 layout: post
 title: "Sports — The First Frontier"
-author: "Narendra Nag"
 date: 2024-08-04 15:00:00 -0500
 # categories: [media, psychology, attention]
 ---
-
 July 9th, 1990. My first day at a new middle school. I was the only one who didn't show up. 
 
 I had stayed up into the wee hours of the morning watching Lothar Matthäus's Germany beat Maradona's Argentina 1-0 in the Fifa World Cup final. [Highlights](https://www.plus.fifa.com/en/content/4d96a700-5c12-49ca-a06b-e238605319e7)
