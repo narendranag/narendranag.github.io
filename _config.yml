@@ -7,8 +7,9 @@ markdown: kramdown
 # theme: minima ## Changed on Aug 9, 2024
 theme: jekyll-theme-persephone
 
-# plugins:
+plugins:
 #  - jekyll-feed
+- jekyll-paginate-v2
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -76,7 +77,12 @@ about_page: "about.md"
 archive_page: "archive.md"
 #   # The nav links on the top right of home/page/post/blog layout. You can set a local page(by setting a layout's path) or and external link ( both title and url are required) here.
 nav_pages:
-  - "about.md"
+  - 
+    title: "About"
+    url: "/about"
+  -
+    title: "Archive"
+    url: "/archive"
 # -
 #       title: "External Link Title"
 #       url: "https://your-external-link.com"
