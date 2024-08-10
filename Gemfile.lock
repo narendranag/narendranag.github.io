@@ -327,6 +327,7 @@ DEPENDENCIES
   jekyll-paginate
   jekyll-remote-theme
   jekyll-seo-tag
+  jekyll-sitemap
   jekyll-theme-persephone
   kramdown-parser-gfm
   tzinfo (>= 1, < 3)
