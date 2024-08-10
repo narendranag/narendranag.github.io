@@ -3,11 +3,12 @@ url: "https://narendranag.github.io" # the base hostname & protocol for your sit
 
 markdown: kramdown
 
-theme: jekyll-theme-persephone
-
 plugins:
   - jekyll-paginate
   - jekyll-remote-theme
+
+remote_theme: erlzhang/jekyll-theme-persephone
+
 
 title: Narendra Nag
 description: This is my personal website where I share essays, keep notes, publish projects and more
