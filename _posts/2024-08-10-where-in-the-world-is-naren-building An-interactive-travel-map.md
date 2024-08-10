@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Where in the World is Naren – Building An Interactive Travel Map"
-date: 2024-08-10 15:00:00 -0500
+date: 2024-08-10
 # categories: [project, development, build-notes]
 ---
 As someone who loves to travel and has lived in various places around the world, I wanted to create a fun and interactive way to showcase all the locations I’ve visited or lived in. The idea was simple: build a map that allows me to pin every place I've been to, highlight my current location, and share it with friends and family. 
