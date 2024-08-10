@@ -127,4 +127,4 @@ keep_files:
   - projects
 
 # Optional: Set the permalink structure for your main Jekyll posts/pages
-# permalink: /:year/:month/:day/:title:output_ext
+permalink: /:year/:month/:day/:title:output_ext
