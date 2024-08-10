@@ -51,6 +51,8 @@ theme_setting:
         title: Archive
       - url: /about
         title: About
+      - url: /where-in-the-world-is-naren
+        title: Where
 #      - url: /projects/
 #        title: Projects
     # -
