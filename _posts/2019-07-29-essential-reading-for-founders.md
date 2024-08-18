@@ -9,15 +9,15 @@ I was recently asked to recommend the books a person starting up should read. It
 *Naomi Klein*
 [Video](https://www.youtube.com/watch?v=clXnQ3eIMCY)
 
-**The Ascent of Money **
+**The Ascent of Money**
 *Niall Ferguson*
 [Video](https://www.youtube.com/watch?v=fsrtB5lp60s)
 
-**Antifragile **
+**Antifragile**
 *Nicholas Nassem Taleb*
 [Video](https://www.youtube.com/watch?v=BaU7Sxk6Yk4)
 
-**Scarcity: Why Having Too Little Means So Much **
+**Scarcity: Why Having Too Little Means So Much**
 *Eldar Shafir and Sendhil Mullainathan*
 [Video](https://www.youtube.com/watch?v=29yi-5226rs)
 
