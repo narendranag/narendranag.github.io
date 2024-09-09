@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "An Ode to the Remote Control"
-date: 2024-08-19
+date: 2024-09-09
 # categories: [sports]
 ---
 The slow, but increasingly inevitable, demise of the RSN model is forcing sports franchises and leagues to think about how they reach (and engage) with their fans.
