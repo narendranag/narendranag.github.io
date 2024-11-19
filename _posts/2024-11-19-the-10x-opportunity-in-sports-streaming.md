@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "The 10x Opportunity in Sports Streaming"
+title:  "The Many X Opportunity in Sports Streaming"
 date:   2024-11-19
 ---
-Through October, we were shocked, shocked I say, to see all these people to watch free sports. I mean, we were told that streaming free sports is a BAAAAD idea — fans WANT to pay another subscription fee because the only way to show REAL support for a sports team is via their wallet. Also, no advertiser would want to advertise on a free service. Why would they! 
+Through October, we were shocked, shocked I say, to see all these people watch free sports. I mean, we were told that streaming free sports is a BAAAAD idea — fans WANT to pay another subscription fee because the only way to show REAL support for a sports team is via their wallet. Also, no advertiser would want to advertise on a free service. Why would they! 
 
 /rant
 
