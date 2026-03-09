@@ -1,7 +1,10 @@
 ---
 layout: post
-title:  "Rebuilding a personal site"
-date:   2024-07-04 16:10:05 -0500
+title: "Rebuilding a personal site"
+date: 2024-07-04 16:10:05 -0500
+description: "After twenty-five years and multiple false starts, finally rebuilding a personal site the right way with Jekyll and GitHub Pages."
+categories: [development, personal]
+author: Narendra Nag
 ---
 It's been twenty-five years since I published my first personal site. That first attempt can still be found in the internet archive, and the braver amongst you can go have a look. 
 

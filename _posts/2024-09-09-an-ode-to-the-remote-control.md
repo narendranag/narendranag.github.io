@@ -2,7 +2,9 @@
 layout: post
 title: "An Ode to the Remote Control"
 date: 2024-09-09
-# categories: [sports]
+description: "The demise of the RSN model is forcing sports franchises to rethink how they reach fans — and the remote control holds the key."
+categories: [sports, media]
+author: Narendra Nag
 ---
 The slow, but increasingly inevitable, demise of the RSN model is forcing sports franchises and leagues to think about how they reach (and engage) with their fans.
 

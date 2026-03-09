@@ -1,14 +1,13 @@
 <footer class="site-footer">
-  © {{ site.time | date: "%Y" }}<a href="{{ "/" | relative_url }}">{{ site.title }}</a>
+  &copy; {{ site.time | date: "%Y" }}<a href="{{ "/" | relative_url }}">{{ site.title }}</a>
 
+  {%- if site.google_analytics and jekyll.environment == 'production' -%}
   <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
-<script>
+  <script>
     window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-        dataLayer.push(arguments);
-    }
+    function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
     gtag('config', '{{ site.google_analytics }}');
-</script>
+  </script>
+  {%- endif -%}
 </footer>

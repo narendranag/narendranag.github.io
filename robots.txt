@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /assets/js/
+Disallow: /.github/
+
+Sitemap: https://narendranag.com/sitemap.xml

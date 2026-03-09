@@ -2,6 +2,7 @@
 layout: post
 title: "What Isn’t Changing: The Enduring Power of Live Sports in an Age of Acceleration"
 date: 2025-07-03
+description: "In an era of compounding disruption from AI and shifting demographics, live sports endure as a uniquely resilient cultural and economic force."
 categories: [socioeconomics, media, AI]
 author: Narendra Nag
 ---

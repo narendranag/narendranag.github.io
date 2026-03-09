@@ -1,6 +1,6 @@
 
 {%- if site.theme_setting.nav_pages -%}
-<nav class="top-nav">
+<nav class="top-nav" aria-label="Main navigation">
 {% for page_path in site.theme_setting.nav_pages %}
 {%- if page_path.url -%}
 {%- assign my_page = page_path -%}

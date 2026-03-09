@@ -1,20 +1,20 @@
-<a href="{{ "/" | relative_url }}" class="logo">
+<a href="{{ "/" | relative_url }}" class="logo" aria-label="{{ site.title }} - Home">
   {%- if site.logo -%}
-  <img src="{{ site.logo | img_url_prefix }}" class="logo_img">
+  <img src="{{ site.logo | img_url_prefix }}" class="logo_img" alt="{{ site.title }} logo">
   {%- endif -%}
   <h1>{{ site.title }}</h1>
 </a>
 {%- if "slides,chapter,book" contains page.layout and site.theme_setting.archive_page -%}
 {%- assign archive_page = site.pages | where: "path", site.theme_setting.archive_page | first -%}
-<a href="{{ archive_page.url | relative_url }}" class="sidebar__toggler">
+<button class="sidebar__toggler" aria-label="Toggle navigation menu" aria-expanded="false">
   <span class="sidebar__toggler_top"></span>
   <span class="sidebar__toggler_middle"></span>
   <span class="sidebar__toggler_bottom"></span>
-</a>
+</button>
 {%- endif %}
 {%- if page.layout == "chapter" -%}
 <div class="book-header" role="navigation">
-    <a href="#" id="summaryToggler" class="summary__toggler">
+    <a href="#" id="summaryToggler" class="summary__toggler" aria-label="Toggle chapter list">
       {% include icons/ellipsis.html%}
     </a>
   <h1>

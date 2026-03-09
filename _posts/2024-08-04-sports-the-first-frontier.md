@@ -2,7 +2,9 @@
 layout: post
 title: "Sports — The First Frontier"
 date: 2024-08-04 15:00:00 -0500
-# categories: [media, psychology, attention]
+description: "From watching the 1990 World Cup final on a tiny black and white TV to understanding why live sports remain the most powerful form of media."
+categories: [media, sports]
+author: Narendra Nag
 ---
 July 9th, 1990. My first day at a new middle school. I was the only one who didn't show up. 
 

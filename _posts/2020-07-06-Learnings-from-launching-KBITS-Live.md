@@ -1,7 +1,10 @@
 ---
 layout: post
-title: Learnings from launching KBITS Live — the new streaming home for the world’s best Cisco networking trainer
+title: "Learnings from launching KBITS Live — the new streaming home for the world’s best Cisco networking trainer"
 date: 2020-07-06
+description: "How we helped a top Cisco networking trainer break free from aggregation platforms and launch his own streaming service."
+categories: [streaming, startups]
+author: Narendra Nag
 ---
 Khawar, or KB as he insists on being called, has been teaching people how to become Cisco Networking experts for thirty-odd years.
 

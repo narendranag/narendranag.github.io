@@ -1,40 +1,42 @@
 const path = require('path');
-const MiniCssExtractPlugin = require("mini-css-extract-plugin")
-const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin')
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
+const TerserPlugin = require('terser-webpack-plugin');
+
+const isProduction = process.env.NODE_ENV === 'production';
 
 module.exports = {
+  mode: isProduction ? 'production' : 'development',
+  devtool: isProduction ? false : 'source-map',
   entry: {
     main: './src/main.js'
   },
   output: {
     filename: '[name].js',
-    path: path.resolve(__dirname, 'assets')
+    path: path.resolve(__dirname, 'assets'),
+    clean: false
   },
   module: {
     rules: [{
       test: /\.scss$/,
       use: [
-        {
-          loader: MiniCssExtractPlugin.loader,
-          options: {
-            publicPath: './assets/'
-          }
-        },
+        MiniCssExtractPlugin.loader,
         "css-loader",
         "sass-loader"
       ]
     }]
   },
+  optimization: {
+    minimize: isProduction,
+    minimizer: [
+      new TerserPlugin(),
+      new CssMinimizerPlugin()
+    ]
+  },
   plugins: [
     new MiniCssExtractPlugin({
       filename: "[name].css",
       chunkFilename: "[id].css"
-    }),
-    new OptimizeCssAssetsPlugin({
-      assetNameRegExp: /\.css$/g,
-      cssProcessor: require('cssnano'),
-      cssProcessorOptions: { safe: true, discardComments: { removeAll: true } },
-     canPrint: true
     })
   ]
 };

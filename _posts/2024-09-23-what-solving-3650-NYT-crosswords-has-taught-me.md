@@ -1,7 +1,10 @@
 ---
 layout: post
-title:  "What solving 3650 New York Times crosswords puzzles has taught me"
-date:   2024-09-23
+title: "What solving 3650 New York Times crosswords puzzles has taught me"
+date: 2024-09-23
+description: "Ten years and 3650 puzzles later — lessons in patience, pattern recognition, and persistence from a daily NYT crossword habit."
+categories: [personal, puzzles]
+author: Narendra Nag
 ---
 I started solving crosswords in high school. Newspapers were a daily essential back in the nineties (the last century!) and we used to get the [Times of India](https://timesofindia.com). It had (and still carries) a pretty decent crossword — I don't remember where it was syndiated from, but it may have been from The Times newspaper in the UK. 
 

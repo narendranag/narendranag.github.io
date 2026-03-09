@@ -1,9 +1,10 @@
 ---
 layout: post
 title: "Modeling Human Attention"
-author: "Narendra Nag"
 date: 2024-07-12 15:00:00 -0500
-# categories: [media, psychology, attention]
+description: "Human attention is the only truly finite asset. Understanding how it works is critical for publishers and brands alike."
+categories: [media, psychology, attention]
+author: Narendra Nag
 ---
 
 The only truly finite asset is human attention — to be able to capture it is the single most important objective for both publishers and brands.

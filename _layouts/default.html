@@ -2,6 +2,9 @@
 <html lang="{{ site.locale | default: 'en' }}">
   {%- include head.html -%}
   <body class="body-{{ page.layout }}">
-    {{ content }}
+    <a href="#content" class="skip-link">Skip to content</a>
+    <div id="content">
+      {{ content }}
+    </div>
   </body>
 </html>

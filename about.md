@@ -2,6 +2,7 @@
 layout: page
 title: About Narendra
 permalink: /about/
+description: "Narendra Nag is a media executive, founder, and strategist with twenty-five years of experience across journalism, digital marketing, and streaming."
 ---
 For the last twenty-five years, Narendra has combined story-telling ability, technical knowledge and strategic thinking to deliver impact in the many roles he has had.
 

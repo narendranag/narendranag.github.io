@@ -1,13 +1,83 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="author" content="{{ site.author.name }}">
+  <meta name="author" content="{{ site.author }}">
+  <meta http-equiv="X-Content-Type-Options" content="nosniff">
+  <meta http-equiv="X-Frame-Options" content="SAMEORIGIN">
   {%- include title.html -%}
   {{ site.head_code }}
-  <meta name="keywords" content="{{ page.keywords }}">
+
+  {%- if page.description -%}
   <meta name="description" content="{{ page.description }}">
+  {%- elsif site.description -%}
+  <meta name="description" content="{{ site.description }}">
+  {%- endif -%}
+  {%- if page.keywords -%}
+  <meta name="keywords" content="{{ page.keywords }}">
+  {%- endif -%}
+
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="{{ page.title | default: site.title | escape }}">
+  <meta property="og:description" content="{{ page.description | default: site.description | escape }}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:site_name" content="{{ site.title | escape }}">
+  {%- if page.layout == 'post' -%}
+  <meta property="og:type" content="article">
+  <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
+  <meta property="article:author" content="{{ page.author | default: site.author }}">
+  {%- else -%}
+  <meta property="og:type" content="website">
+  {%- endif -%}
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="{{ page.title | default: site.title | escape }}">
+  <meta name="twitter:description" content="{{ page.description | default: site.description | escape }}">
+
   {%- include assets.html -%}
   {%- if site.rss %}
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.rss }}" />
   {% endif -%}
+
+  <!-- Structured Data -->
+  {%- if page.layout == 'post' -%}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": {{ page.title | jsonify }},
+    "description": {{ page.description | default: site.description | jsonify }},
+    "datePublished": "{{ page.date | date_to_xmlschema }}",
+    "author": {
+      "@type": "Person",
+      "name": {{ page.author | default: site.author | jsonify }},
+      "url": "{{ site.url }}/about/"
+    },
+    "publisher": {
+      "@type": "Person",
+      "name": {{ site.author | jsonify }}
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "{{ page.url | absolute_url }}"
+    }
+  }
+  </script>
+  {%- else -%}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": {{ site.title | jsonify }},
+    "description": {{ site.description | jsonify }},
+    "url": "{{ site.url }}",
+    "author": {
+      "@type": "Person",
+      "name": {{ site.author | jsonify }}
+    }
+  }
+  </script>
+  {%- endif -%}
 </head>
