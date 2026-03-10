@@ -1,0 +1,38 @@
+/* Font Override: Lora (Google Fonts)
+   Loaded after main.css to override the theme's default sans-serif stack. */
+
+/* Base font family */
+body, html {
+  font-family: 'Lora', Georgia, 'Times New Roman', serif;
+}
+
+/* Form inputs */
+.form-control {
+  font-family: 'Lora', Georgia, 'Times New Roman', serif;
+}
+
+/* Content area: slightly more line-height for serif readability */
+.content {
+  line-height: 1.75;
+}
+
+/* Global headings: light weight for site chrome (logo, archive headers) */
+h1, h2, h3 {
+  font-weight: 400;
+}
+
+/* Content headings: bold for reading hierarchy.
+   Snaps theme's 500/550 weights to Lora's real weight 700. */
+.content h1, .content h2, .content h3,
+.content h4, .content h5, .content h6 {
+  font-weight: 700;
+}
+
+/* Slight negative tracking on large headings */
+.content h1 {
+  letter-spacing: -0.01em;
+}
+
+.content h2 {
+  letter-spacing: -0.005em;
+}
