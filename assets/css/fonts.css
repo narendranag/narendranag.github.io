@@ -1,38 +1,228 @@
 /* Font Override: Lora (Google Fonts)
    Loaded after main.css to override the theme's default sans-serif stack. */
 
-/* Base font family */
+/* ==========================================================================
+   Base
+   ========================================================================== */
+
 body, html {
   font-family: 'Lora', Georgia, 'Times New Roman', serif;
+  font-size: 17px;
+  line-height: 1.7;
 }
 
-/* Form inputs */
 .form-control {
   font-family: 'Lora', Georgia, 'Times New Roman', serif;
 }
 
-/* Content area: slightly more line-height for serif readability */
-.content {
-  line-height: 1.75;
-}
+/* ==========================================================================
+   Global headings (site chrome: logo, archive headers, page titles)
+   ========================================================================== */
 
-/* Global headings: light weight for site chrome (logo, archive headers) */
 h1, h2, h3 {
   font-weight: 400;
 }
 
-/* Content headings: bold for reading hierarchy.
-   Snaps theme's 500/550 weights to Lora's real weight 700. */
+h1 {
+  font-size: 2.2rem;
+  letter-spacing: -0.015em;
+  line-height: 1.25;
+}
+
+h2 {
+  font-size: 1.65rem;
+  letter-spacing: -0.01em;
+  line-height: 1.3;
+}
+
+h3 {
+  font-size: 1.3rem;
+  line-height: 1.35;
+}
+
+/* ==========================================================================
+   Content area (blog post body)
+   ========================================================================== */
+
+.content {
+  line-height: 1.8;
+  font-size: 1.05rem;
+}
+
+/* Content links: bump back to body size (theme shrinks them to .9em) */
+.content a {
+  font-size: inherit;
+}
+
+/* --- Content headings --- */
+
 .content h1, .content h2, .content h3,
 .content h4, .content h5, .content h6 {
   font-weight: 700;
+  margin-top: 1.5em;
+  margin-bottom: 0.6em;
 }
 
-/* Slight negative tracking on large headings */
 .content h1 {
-  letter-spacing: -0.01em;
+  font-size: 2em;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
 }
 
 .content h2 {
-  letter-spacing: -0.005em;
+  font-size: 1.55em;
+  letter-spacing: -0.01em;
+  line-height: 1.25;
+}
+
+.content h3 {
+  font-size: 1.25em;
+  line-height: 1.3;
+}
+
+.content h4 {
+  font-size: 1.1em;
+  line-height: 1.35;
+}
+
+.content h5, .content h6 {
+  font-size: 1em;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  line-height: 1.4;
+}
+
+/* --- Body text --- */
+
+.content blockquote, .content dl,
+.content ol, .content p,
+.content table, .content ul {
+  margin-bottom: 1em;
+}
+
+/* --- Blockquotes --- */
+
+.content blockquote {
+  font-style: italic;
+  font-size: 1.05em;
+  line-height: 1.7;
+  padding: 0.25em 0 0.25em 1.25em;
+  border-left-width: 3px;
+  color: var(--grayer);
+}
+
+.content blockquote p {
+  margin-bottom: 0.5em;
+}
+
+/* --- Code --- */
+
+.content pre {
+  font-size: 0.85rem;
+  line-height: 1.55;
+}
+
+.content code {
+  font-size: 0.85em;
+}
+
+/* --- Tables --- */
+
+.content table th {
+  font-weight: 700;
+  font-size: 0.9em;
+  letter-spacing: 0.01em;
+}
+
+/* --- Footnotes --- */
+
+.content .footnotes {
+  font-size: 0.875rem;
+  line-height: 1.6;
+}
+
+.content .footnotes ol li {
+  font-size: 0.875rem;
+}
+
+/* ==========================================================================
+   Post header (title + meta on individual post pages)
+   ========================================================================== */
+
+.post__header .post__title {
+  font-size: 2.25rem;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+  margin: 2.5rem 0 1rem;
+}
+
+.post__header .post__meta {
+  font-size: 0.9rem;
+  letter-spacing: 0.01em;
+}
+
+/* ==========================================================================
+   Post list (homepage / archive entries)
+   ========================================================================== */
+
+.post__entry h2 {
+  font-size: 1.4rem;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  line-height: 1.3;
+}
+
+.post__entry .post__meta {
+  font-size: 0.85rem;
+  letter-spacing: 0.01em;
+}
+
+.post__entry .post__excerpt,
+.post__entry .post__excerpt p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+/* ==========================================================================
+   Archive page
+   ========================================================================== */
+
+.archive__header h1 {
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.archive__link {
+  font-size: 1.05rem;
+}
+
+.archive__time {
+  font-size: 0.85rem;
+}
+
+/* ==========================================================================
+   Site chrome (footer, logo, nav)
+   ========================================================================== */
+
+.site-footer {
+  font-size: 0.8rem;
+  letter-spacing: 0.01em;
+}
+
+.logo h1 {
+  font-size: 1.1rem;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+}
+
+.post__contact h4 {
+  font-size: 1.05rem;
+  font-weight: 400;
+}
+
+.post__contact p {
+  font-size: 0.9rem;
+  line-height: 1.6;
 }
