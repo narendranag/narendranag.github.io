@@ -4,6 +4,7 @@ title: "Where in the World is Naren – Building An Interactive Travel Map"
 date: 2024-08-10
 description: "Building an interactive travel map with Leaflet.js to showcase every place I have visited or lived in around the world."
 categories: [project, development]
+keywords: "interactive map, Leaflet.js, travel map, JavaScript, web project"
 author: Narendra Nag
 ---
 As someone who loves to travel and has lived in various places around the world, I wanted to create a fun and interactive way to showcase all the locations I’ve visited or lived in. The idea was simple: build a map that allows me to pin every place I've been to, highlight my current location, and share it with friends and family. 

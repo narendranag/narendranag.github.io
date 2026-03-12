@@ -18,7 +18,11 @@ layout: default
         {%- if page.author or site.author -%}
         <div class="post__byline">By {{ page.author | default: site.author }}</div>
         {%- endif -%}
-        <time>{{ page.date | date: "%B %-d, %Y" }}</time>
+        <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
+        {%- assign words = page.content | number_of_words -%}
+        {%- assign minutes = words | divided_by: 238 -%}
+        {%- if minutes < 1 -%}{%- assign minutes = 1 -%}{%- endif -%}
+        <span class="post__reading-time"> · {{ minutes }} min read</span>
       </div>
     </header>
     <div class="post__content content">

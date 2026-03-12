@@ -472,8 +472,12 @@ h3 {
   letter-spacing: 0.02em;
   color: var(--editorial-text-light);
   border-top: 1px solid var(--editorial-rule-light);
-  padding: 1.5rem 0;
+  padding: 1.5rem 1rem;
   margin-top: 1rem;
+  text-align: center;
+  max-width: var(--content-width);
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .site-footer a {
@@ -483,6 +487,28 @@ h3 {
 
 .site-footer a:hover {
   color: var(--editorial-text);
+}
+
+.footer__nav {
+  margin-bottom: 0.75rem;
+}
+
+.footer__nav a {
+  display: inline-block;
+  margin: 0 0.75rem;
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.footer__copy {
+  margin: 0;
+}
+
+/* Reading time in post meta */
+.post__reading-time {
+  color: var(--editorial-text-light);
 }
 
 /* ==========================================================================

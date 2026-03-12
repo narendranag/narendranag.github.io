@@ -1,7 +1,9 @@
 {%- if page.layout == "chapter" -%}
 <title>{{ page.title }} - {{ page.book.title }} | {{ site.title }}</title>
-{%- elsif page.title -%}
+{%- elsif page.title and page.title != site.title -%}
 <title>{{ page.title }} | {{ site.title }}</title>
+{%- elsif page.layout == "home" -%}
+<title>{{ site.title }} | {{ site.description | strip }}</title>
 {%- else -%}
 <title>{{ site.title }}</title>
 {%- endif -%}

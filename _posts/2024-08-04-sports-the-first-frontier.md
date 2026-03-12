@@ -4,6 +4,7 @@ title: "Sports — The First Frontier"
 date: 2024-08-04 15:00:00 -0500
 description: "From watching the 1990 World Cup final on a tiny black and white TV to understanding why live sports remain the most powerful form of media."
 categories: [media, sports]
+keywords: "live sports, sports media, World Cup, sports broadcasting, streaming"
 author: Narendra Nag
 ---
 July 9th, 1990. My first day at a new middle school. I was the only one who didn't show up. 

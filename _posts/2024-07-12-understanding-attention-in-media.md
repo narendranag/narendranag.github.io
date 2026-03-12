@@ -4,6 +4,7 @@ title: "Modeling Human Attention"
 date: 2024-07-12 15:00:00 -0500
 description: "Human attention is the only truly finite asset. Understanding how it works is critical for publishers and brands alike."
 categories: [media, psychology, attention]
+keywords: "human attention, media monetization, advertising, content strategy, attention economy"
 author: Narendra Nag
 ---
 

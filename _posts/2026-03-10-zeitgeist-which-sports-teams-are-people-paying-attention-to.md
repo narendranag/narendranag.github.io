@@ -4,6 +4,7 @@ title: "Zeitgeist — Which Sports Teams Are People Actually Paying Attention To
 date: 2026-03-10
 description: "I built a dashboard that tracks digital attention across all 92 NBA, MLB, and NHL teams using seven data sources — from Wikipedia and ESPN to ticket demand and betting odds. Here's what it reveals about how we follow sports."
 categories: [sports, data, streaming]
+keywords: "sports attention, NBA, MLB, NHL, digital analytics, sports data dashboard"
 author: Narendra Nag
 ---
 I've been thinking about attention a lot lately.

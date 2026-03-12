@@ -15,9 +15,10 @@ remote_theme: erlzhang/jekyll-theme-persephone
 
 
 title: Narendra Nag
-description: This is my personal website where I share essays, keep notes, publish projects and more
+description: "Essays on media, technology, sports streaming, and strategy from a founder and media executive."
 # email: me@narendranag.com
 author: Narendra Nag
+locale: en_US
 
 # Your social accounts.
 social:

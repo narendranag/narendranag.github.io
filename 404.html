@@ -1,24 +1,46 @@
 ---
 layout: default
+title: "Page Not Found"
+description: "The page you're looking for doesn't exist. Browse recent essays or head back to the homepage."
+permalink: /404.html
 ---
 
 <style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
+  .error-container {
+    margin: 4rem auto;
     max-width: 600px;
-    text-align: center;
+    padding: 0 1.5rem;
   }
-  h1 {
-    margin: 30px 0;
+  .error-container h1 {
     font-size: 4em;
     line-height: 1;
     letter-spacing: -1px;
+    margin: 0 0 0.5rem;
+  }
+  .error-container p {
+    margin: 0.5rem 0;
+    line-height: 1.6;
+  }
+  .error-container .error-nav {
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid #e0e0e0;
+  }
+  .error-container .error-nav a {
+    display: inline-block;
+    margin-right: 1.5rem;
+    margin-bottom: 0.5rem;
   }
 </style>
 
-<div class="container">
+<div class="error-container">
   <h1>404</h1>
+  <p><strong>Page not found.</strong></p>
+  <p>The page you were looking for doesn't exist or may have moved.</p>
 
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
+  <div class="error-nav">
+    <a href="{{ '/' | relative_url }}">&larr; Home</a>
+    <a href="{{ '/archive' | relative_url }}">Archive</a>
+    <a href="{{ '/about' | relative_url }}">About</a>
+  </div>
 </div>
