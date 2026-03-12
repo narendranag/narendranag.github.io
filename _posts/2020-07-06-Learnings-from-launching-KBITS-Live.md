@@ -4,6 +4,7 @@ title: "Learnings from launching KBITS Live — the new streaming home for the w
 date: 2020-07-06
 description: "How we helped a top Cisco networking trainer break free from aggregation platforms and launch his own streaming service."
 categories: [streaming, startups]
+keywords: "streaming platform, OTT launch, direct to consumer, Cisco training, live streaming"
 author: Narendra Nag
 ---
 Khawar, or KB as he insists on being called, has been teaching people how to become Cisco Networking experts for thirty-odd years.

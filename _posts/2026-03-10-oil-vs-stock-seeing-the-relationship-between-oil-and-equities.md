@@ -4,6 +4,7 @@ title: "Oil vs Stock: Seeing the Relationship Between Oil and Equities"
 date: 2026-03-10
 description: "I built a dashboard that overlays crude oil prices with any stock ticker — because sometimes the best way to understand a relationship is to just look at it."
 categories: [development, data, markets]
+keywords: "oil prices, stock market, data visualization, crude oil, equities dashboard"
 author: Narendra Nag
 ---
 

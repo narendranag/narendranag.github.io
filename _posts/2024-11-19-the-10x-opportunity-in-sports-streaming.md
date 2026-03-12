@@ -4,6 +4,7 @@ title: "The Many X Opportunity in Sports Streaming"
 date: 2024-11-19
 description: "Free sports streaming is delivering many times the audience of traditional media — here is what the data shows and why it matters."
 categories: [sports, streaming, media]
+keywords: "sports streaming, free streaming, audience growth, Victory+, sports media rights"
 author: Narendra Nag
 ---
 Through October, we were shocked, shocked I say, to see all these people watch free sports. I mean, we were told that streaming free sports is a BAAAAD idea — fans WANT to pay another subscription fee because the only way to show REAL support for a sports team is via their wallet. Also, no advertiser would want to advertise on a free service. Why would they! 

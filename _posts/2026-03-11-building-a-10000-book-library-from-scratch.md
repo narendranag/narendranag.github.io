@@ -4,6 +4,7 @@ title: "Building a 10,000-Book Library from Scratch"
 date: 2026-03-11
 description: "I built a curated digital library of 10,001 books spanning serious literature, science fiction, detective fiction, science, and a dozen other genres — with a REST API, editorial web frontend, and CLI tools. Here's why and how."
 categories: [development, books, data]
+keywords: "digital library, book curation, REST API, literature, science fiction, reading list"
 author: Narendra Nag
 ---
 

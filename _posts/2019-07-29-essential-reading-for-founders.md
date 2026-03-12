@@ -4,6 +4,7 @@ title: "Essential Reading for Founders"
 date: 2019-07-29
 description: "A curated, living list of the most influential books for startup founders, with video talks where available."
 categories: [startups, books]
+keywords: "startup books, founder reading list, entrepreneurship, business strategy"
 author: Narendra Nag
 ---
 I was recently asked to recommend the books a person starting up should read. It got me thinking about the books that have influenced me the most. So here’s a living list — I’ll add to it every time I read something seminal. And I’m adding videos of talks (usually by the author) where available.
