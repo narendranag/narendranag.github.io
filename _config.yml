@@ -132,6 +132,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - node_modules
+  - writing-style.md
   - vendor/bundle/
   - vendor/cache/
   - vendor/gems/
