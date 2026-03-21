@@ -1,4 +1,5 @@
 <footer class="site-footer">
+  <a href="{{ '/' | relative_url }}" class="footer__site-name">{{ site.title }}</a>
   <nav class="footer__nav" aria-label="Footer navigation">
     <a href="{{ '/' | relative_url }}">Home</a>
     <a href="{{ '/archive' | relative_url }}">Archive</a>
@@ -7,7 +8,7 @@
     <a href="{{ site.rss | absolute_url }}" aria-label="RSS Feed">RSS</a>
     {%- endif %}
   </nav>
-  <p class="footer__copy">&copy; {{ site.time | date: "%Y" }} <a href="{{ "/" | relative_url }}">{{ site.title }}</a></p>
+  <p class="footer__copy">&copy; {{ site.time | date: "%Y" }} {{ site.title }}. All Rights Reserved.</p>
 
   {%- if site.google_analytics and jekyll.environment == 'production' -%}
   <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>

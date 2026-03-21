@@ -13,17 +13,17 @@ layout: default
   </div>
   <article class="post">
     <header class="post__header">
-      <h1 class="post__title">{{ page.title | escape }}</h1>
-      <div class="post__meta">
-        {%- if page.author or site.author -%}
-        <div class="post__byline">By {{ page.author | default: site.author }}</div>
+      <div class="post__breadcrumb">
+        {%- if page.categories.size > 0 -%}
+        <span class="post__category">{{ page.categories | first | capitalize }}</span>
+        <span class="post__breadcrumb-rule"></span>
         {%- endif -%}
-        <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
-        {%- assign words = page.content | number_of_words -%}
-        {%- assign minutes = words | divided_by: 238 -%}
-        {%- if minutes < 1 -%}{%- assign minutes = 1 -%}{%- endif -%}
-        <span class="post__reading-time"> · {{ minutes }} min read</span>
+        <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%b %-d, %Y" }}</time>
       </div>
+      <h1 class="post__title">{{ page.title | escape }}</h1>
+      {%- if page.description -%}
+      <p class="post__lede">{{ page.description }}</p>
+      {%- endif -%}
     </header>
     {%- if page.image -%}
     <figure class="post__hero">
