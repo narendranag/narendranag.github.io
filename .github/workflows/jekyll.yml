@@ -15,6 +15,9 @@ concurrency:
   group: "pages"
   cancel-in-progress: false
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -22,11 +25,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Setup Ruby
-        uses: ruby/setup-ruby@8575951200e472d5f2d95c625da0c7bec8217c42 # v1.161.0
+        uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.1'
+          ruby-version: '3.3'
           bundler-cache: true
-          cache-version: 0
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
@@ -34,18 +36,8 @@ jobs:
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
-      - name: Validate Jekyll output
-        run: bundle exec jekyll doctor || true
-      - name: Check HTML output
-        run: |
-          gem install html-proofer
-          htmlproofer ./_site \
-            --disable-external \
-            --allow-hash-href \
-            --ignore-empty-alt \
-            --ignore-missing-alt || true
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
 
   deploy:
     environment:
