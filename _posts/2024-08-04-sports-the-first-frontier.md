@@ -6,6 +6,8 @@ description: "From watching the 1990 World Cup final on a tiny black and white T
 categories: [media, sports]
 keywords: "live sports, sports media, World Cup, sports broadcasting, streaming"
 author: Narendra Nag
+image: "https://images.unsplash.com/photo-1686947079063-f1e7a7dfc6a9?w=1200&h=630&fit=crop&q=80"
+image_alt: "A packed sports stadium with cheering fans"
 ---
 July 9th, 1990. My first day at a new middle school. I was the only one who didn't show up. 
 
@@ -20,6 +22,8 @@ There is something about human beings challenging themselves that appeals to us 
 We are all fans. Whatever else we may be, however far apart we may be, we all come together SEAMLESSLY to support the same team.
 
 And that right there is the power of sports.
+
+![A television screen showing a live sporting event](https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=900&h=500&fit=crop&q=80)
 
 But that power exists because for the longest time, sports came to our homes and was just playing on our televisions. 
 

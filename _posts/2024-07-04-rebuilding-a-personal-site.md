@@ -6,6 +6,8 @@ description: "After twenty-five years and multiple false starts, finally rebuild
 categories: [development, personal]
 keywords: "Jekyll, GitHub Pages, personal website, static site, web development"
 author: Narendra Nag
+image: "https://images.unsplash.com/photo-1557324232-b8917d3c3dcb?w=1200&h=630&fit=crop&q=80"
+image_alt: "Code on a screen with colorful syntax highlighting"
 ---
 It's been twenty-five years since I published my first personal site. That first attempt can still be found in the internet archive, and the braver amongst you can go have a look. 
 

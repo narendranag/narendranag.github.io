@@ -6,6 +6,8 @@ description: "Free sports streaming is delivering many times the audience of tra
 categories: [sports, streaming, media]
 keywords: "sports streaming, free streaming, audience growth, Victory+, sports media rights"
 author: Narendra Nag
+image: "https://images.unsplash.com/photo-1615986200580-033f60c64546?w=1200&h=630&fit=crop&q=80"
+image_alt: "Watching sports on a mobile phone"
 ---
 Through October, we were shocked, shocked I say, to see all these people watch free sports. I mean, we were told that streaming free sports is a BAAAAD idea — fans WANT to pay another subscription fee because the only way to show REAL support for a sports team is via their wallet. Also, no advertiser would want to advertise on a free service. Why would they! 
 

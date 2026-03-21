@@ -6,6 +6,8 @@ description: "The demise of the RSN model is forcing sports franchises to rethin
 categories: [sports, media]
 keywords: "RSN, regional sports networks, sports streaming, cord cutting, fan engagement"
 author: Narendra Nag
+image: "https://images.unsplash.com/photo-1584905066893-7d5c142ba4e1?w=1200&h=630&fit=crop&q=80"
+image_alt: "A television remote control on a couch"
 ---
 The slow, but increasingly inevitable, demise of the RSN model is forcing sports franchises and leagues to think about how they reach (and engage) with their fans.
 

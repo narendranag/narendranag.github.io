@@ -6,6 +6,8 @@ description: "I built a dashboard that tracks digital attention across all 92 NB
 categories: [sports, data, streaming]
 keywords: "sports attention, NBA, MLB, NHL, digital analytics, sports data dashboard"
 author: Narendra Nag
+image: "https://images.unsplash.com/photo-1699862731387-d40f6908ca4e?w=1200&h=630&fit=crop&q=80"
+image_alt: "A large crowd filling a sports arena"
 ---
 I've been thinking about attention a lot lately.
 

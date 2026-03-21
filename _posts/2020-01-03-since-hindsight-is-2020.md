@@ -6,6 +6,8 @@ description: "Reflecting on twenty years of career transitions — from web desi
 categories: [career, reflection]
 keywords: "career transitions, journalism, digital marketing, streaming, media executive"
 author: Narendra Nag
+image: "https://images.unsplash.com/photo-1517173524746-c8e3c136d4f7?w=1200&h=630&fit=crop&q=80"
+image_alt: "A winding path stretching into the distance"
 ---
 In the year 2000 I was transitioning from running an independent web-design shop to working as a reporter for a traditional newspaper. In 2020, I find myself leading a team trying to build and launch the most advanced video platform as a service this world has ever seen.
 
@@ -19,6 +21,8 @@ In the early noughts, I was part of newsrooms (first print and then TV) that wer
 The thing that changed the most, was time —almost overnight, news-cycles became compressed, news got stale a lot quicker, what qualified as enough-time to research and do a story kept getting lesser, and the time to reflect slowly started to vanish.
 
 Faster began to mean better.
+
+![A laptop on a desk in a modern workspace](https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=900&h=500&fit=crop&q=80)
 
 In the late noughts and early tens, I found myself in communication and advertising through the acquihire of my fledgling digital agency. I saw digital go from being a line-item and a check-box exercise in a traditional marketer’s playbook to being seen as the cure-all panacea for all marketing problems.
 

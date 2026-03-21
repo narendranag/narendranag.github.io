@@ -4,6 +4,8 @@ title: "Building a Family Recipe Book"
 date: 2026-03-13
 categories: [project, development, build-notes]
 author: Narendra Nag
+image: "https://images.unsplash.com/photo-1761839258568-fd466a93f68b?w=1200&h=630&fit=crop&q=80"
+image_alt: "A family cooking together in a warm kitchen"
 ---
 My family's recipes live in three places: a YouTube playlist of cooking videos I've saved over the years, a folder in Apple Notes where I jot things down when someone tells me how to make something, and my head. The first two are searchable in theory but useless in practice. YouTube buries the actual recipe in a video description full of social media links and hashtags. Apple Notes is a graveyard of half-formed bullet points. And the recipes in my head aren't going to survive me unless I write them down.
 

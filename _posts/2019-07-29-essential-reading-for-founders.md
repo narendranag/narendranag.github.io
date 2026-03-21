@@ -6,6 +6,8 @@ description: "A curated, living list of the most influential books for startup f
 categories: [startups, books]
 keywords: "startup books, founder reading list, entrepreneurship, business strategy"
 author: Narendra Nag
+image: "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=1200&h=630&fit=crop&q=80"
+image_alt: "Books arranged on a library shelf"
 ---
 I was recently asked to recommend the books a person starting up should read. It got me thinking about the books that have influenced me the most. So here’s a living list — I’ll add to it every time I read something seminal. And I’m adding videos of talks (usually by the author) where available.
 

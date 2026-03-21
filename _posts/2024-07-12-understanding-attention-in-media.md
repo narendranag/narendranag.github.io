@@ -6,6 +6,8 @@ description: "Human attention is the only truly finite asset. Understanding how 
 categories: [media, psychology, attention]
 keywords: "human attention, media monetization, advertising, content strategy, attention economy"
 author: Narendra Nag
+image: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=1200&h=630&fit=crop&q=80"
+image_alt: "A person in deep meditation and focus"
 ---
 
 The only truly finite asset is human attention — to be able to capture it is the single most important objective for both publishers and brands.

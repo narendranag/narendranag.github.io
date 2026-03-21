@@ -6,6 +6,8 @@ description: "Ten years and 3650 puzzles later — lessons in patience, pattern 
 categories: [personal, puzzles]
 keywords: "NYT crossword, New York Times, puzzles, pattern recognition, daily habit"
 author: Narendra Nag
+image: "https://images.unsplash.com/photo-1732811797813-16f831d5533f?w=1200&h=630&fit=crop&q=80"
+image_alt: "A crossword puzzle with a pencil"
 ---
 I started solving crosswords in high school. Newspapers were a daily essential back in the nineties (the last century!) and we used to get the [Times of India](https://timesofindia.com). It had (and still carries) a pretty decent crossword — I don't remember where it was syndiated from, but it may have been from The Times newspaper in the UK. 
 
@@ -18,6 +20,8 @@ Work (and life in general) got in the way of doing the crossword regularly, but 
 I must have found the NY Times Crosswords app sometime in the late noughts. You didn't need a subscription back then so it was a LONG time ago. And I started out. I quickly discovered that I could solve the Monday and Tuesday crosswords but couldn't really solve the later days of the week. But, through many moves between different countries and continents, jobs, and relationships, the crossword remained a constant. 
 
 Over time, I got better at it. A lot of it achieved by solving multiple crosswords from the archives. And then, one day, it all just came together. It's a like a part of my brain had got unlocked and I was "seeing" the words in a way I hadn't before.
+
+![A newspaper and coffee on a morning table](https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=900&h=500&fit=crop&q=80)
 
 Now, I'm not some savant who can solve every puzzle in under 5 minutes and I certainly don't always know every word.
 

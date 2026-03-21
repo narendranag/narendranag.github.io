@@ -6,6 +6,8 @@ description: "I built a curated digital library of 10,001 books spanning serious
 categories: [development, books, data]
 keywords: "digital library, book curation, REST API, literature, science fiction, reading list"
 author: Narendra Nag
+image: "https://images.unsplash.com/photo-1719965648599-ee6da9695c78?w=1200&h=630&fit=crop&q=80"
+image_alt: "Floor-to-ceiling bookshelves in a grand library"
 ---
 
 I've always believed that a good library tells you something about the person who built it. Not just what they read, but how they think about the world — what they consider important, what they want to understand, what they return to.
@@ -41,6 +43,8 @@ The genres are deliberately broad:
 The dataset isn't just English. There's French literature (Camus, Simenon, Vargas), Russian (Tolstoy, Dostoevsky, Bulgakov), Japanese (Murakami, Mishima, Ogawa), German (Mann, Hesse, Zweig), Spanish (Borges, Bolaño, Márquez), and works from Icelandic, Polish, Chinese, Korean, Arabic, and more.
 
 Every book has structured metadata — title, authors, publication year, genres, language, page count, ISBN-13, and description where available. The ISBNs are deterministically generated from title-author pairs using MD5 hashing with proper ISBN-13 check digits, so they're consistent and reproducible.
+
+![Rows of books on shelves in a warm reading room](https://images.unsplash.com/photo-1495020689067-958852a7765e?w=900&h=500&fit=crop&q=80)
 
 ## How it's built
 

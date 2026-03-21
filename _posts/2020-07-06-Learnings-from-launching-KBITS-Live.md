@@ -6,6 +6,8 @@ description: "How we helped a top Cisco networking trainer break free from aggre
 categories: [streaming, startups]
 keywords: "streaming platform, OTT launch, direct to consumer, Cisco training, live streaming"
 author: Narendra Nag
+image: "https://images.unsplash.com/photo-1637065463674-4595b7f32adc?w=1200&h=630&fit=crop&q=80"
+image_alt: "Live streaming broadcast setup with camera and monitors"
 ---
 Khawar, or KB as he insists on being called, has been teaching people how to become Cisco Networking experts for thirty-odd years.
 

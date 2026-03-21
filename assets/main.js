@@ -8,6 +8,18 @@
 (function () {
   "use strict";
 
+  /* --- Glassmorphic nav: increase opacity on scroll --- */
+  var topNav = document.querySelector(".top-nav");
+  if (topNav) {
+    window.addEventListener("scroll", function () {
+      if (window.scrollY > 100) {
+        topNav.classList.add("top-nav--scrolled");
+      } else {
+        topNav.classList.remove("top-nav--scrolled");
+      }
+    });
+  }
+
   /* --- Sidebar toggle (hamburger menu) --- */
   var toggler = document.querySelector(".sidebar__toggler");
   if (toggler) {

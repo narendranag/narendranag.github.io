@@ -6,6 +6,8 @@ description: "I built a dashboard that overlays crude oil prices with any stock 
 categories: [development, data, markets]
 keywords: "oil prices, stock market, data visualization, crude oil, equities dashboard"
 author: Narendra Nag
+image: "https://images.unsplash.com/photo-1578356058390-f58c575337a2?w=1200&h=630&fit=crop&q=80"
+image_alt: "An oil rig silhouetted against the sky"
 ---
 
 There's an old saying on Wall Street: when oil moves, everything moves. Energy costs ripple through supply chains, consumer spending, corporate margins — the whole machine. But how tightly coupled is that relationship, really? And does it depend on the stock you're looking at?

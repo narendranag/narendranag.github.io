@@ -7,29 +7,45 @@ permalink: /404.html
 
 <style type="text/css" media="screen">
   .error-container {
-    margin: 4rem auto;
+    margin: var(--sp-12, 4rem) auto;
     max-width: 600px;
-    padding: 0 1.5rem;
+    padding: 0 var(--sp-6, 1.5rem);
   }
   .error-container h1 {
-    font-size: 4em;
+    font-family: var(--font-narrative, 'Newsreader', Georgia, serif);
+    font-size: var(--display-lg, 3.5rem);
+    font-weight: 400;
     line-height: 1;
-    letter-spacing: -1px;
-    margin: 0 0 0.5rem;
+    letter-spacing: -0.02em;
+    margin: 0 0 var(--sp-2, 0.5rem);
+    color: var(--ink, #1e1e1e);
   }
   .error-container p {
-    margin: 0.5rem 0;
+    margin: var(--sp-2, 0.5rem) 0;
     line-height: 1.6;
+    color: var(--ink-variant, #444746);
   }
   .error-container .error-nav {
-    margin-top: 2rem;
-    padding-top: 1.5rem;
-    border-top: 1px solid #e0e0e0;
+    margin-top: var(--sp-8, 2rem);
+    padding-top: var(--sp-6, 1.5rem);
+    background: var(--surface-container-low, #f4f4f0);
+    padding: var(--sp-6, 1.5rem);
+    border-radius: 0.25rem;
   }
   .error-container .error-nav a {
     display: inline-block;
-    margin-right: 1.5rem;
-    margin-bottom: 0.5rem;
+    margin-right: var(--sp-6, 1.5rem);
+    margin-bottom: var(--sp-2, 0.5rem);
+    font-family: var(--font-utility, 'Inter', sans-serif);
+    font-size: var(--label-md, 0.75rem);
+    letter-spacing: 0.05rem;
+    text-transform: uppercase;
+    color: var(--ink-variant, #444746);
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+  .error-container .error-nav a:hover {
+    color: var(--ink, #1e1e1e);
   }
 </style>
 
