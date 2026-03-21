@@ -2,32 +2,74 @@
 layout: default
 ---
 {%- include header.html -%}
+{%- include header_nav.html -%}
 <main class="archive">
-  <div class="archive__header">
-    <h1>
-      {%- assign about_page_path = site.theme_setting.about_page | default: "index.md" %}
-      {%- assign about_page = site.pages | where: "path", about_page_path | first -%}
-      <a href="{{ about_page.url | relative_url }}">{{ site.author | default: site.title }}</a>
-    </h1>
-    <div class="archive__header_intro">
-      {{ site.description | markdownify }}
+  <div class="archive__grid">
+    <div class="archive__index">
+      <header class="archive__hero">
+        <h1 class="archive__title">Archives</h1>
+        <p class="archive__subtitle">{{ page.description | default: site.description }}</p>
+      </header>
+
+      {%- assign posts = site.posts -%}
+      {%- assign currentYear = "" -%}
+      {%- assign currentMonth = "" -%}
+
+      {%- for post in posts -%}
+        {%- assign postYear = post.date | date: "%Y" -%}
+        {%- assign postMonth = post.date | date: "%B" -%}
+
+        {%- if postYear != currentYear -%}
+          {%- if currentYear != "" -%}</div>{%- endif -%}
+          <div class="archive__year-group">
+            <div class="archive__year-header">
+              <h2 class="archive__year">{{ postYear }}</h2>
+              <div class="archive__year-rule"></div>
+            </div>
+          {%- assign currentYear = postYear -%}
+          {%- assign currentMonth = "" -%}
+        {%- endif -%}
+
+        {%- if postMonth != currentMonth -%}
+          <h3 class="archive__month">{{ postMonth }}</h3>
+          {%- assign currentMonth = postMonth -%}
+        {%- endif -%}
+
+        <article class="archive__entry">
+          <a href="{{ post.url | relative_url }}" class="archive__entry-link group">
+            <span class="archive__entry-date">{{ post.date | date: "%b %-d" }}</span>
+            <div class="archive__entry-content">
+              <h4 class="archive__entry-title">{{ post.title }}</h4>
+              {%- if post.categories.size > 0 -%}
+              <span class="archive__entry-tag">{{ post.categories | first | capitalize }}</span>
+              {%- endif -%}
+            </div>
+          </a>
+        </article>
+      {%- endfor -%}
+      {%- if currentYear != "" -%}</div>{%- endif -%}
     </div>
-    {%- include icons.html -%}
+
+    <aside class="archive__sidebar">
+      <div class="archive__sidebar-inner">
+        {%- comment -%} Category collections {%- endcomment -%}
+        <section class="archive__collections">
+          <h5 class="archive__collections-heading">Collections</h5>
+          <ul class="archive__collections-list">
+            {%- assign categories = site.posts | map: "categories" | flatten | uniq | sort -%}
+            {%- for cat in categories -%}
+            {%- assign cat_posts = site.posts | where_exp: "p", "p.categories contains cat" -%}
+            <li>
+              <a href="#" class="archive__collection-link group">
+                <span class="archive__collection-name">{{ cat | capitalize }}</span>
+                <span class="archive__collection-count">{{ cat_posts.size }} {% if cat_posts.size == 1 %}Entry{% else %}Entries{% endif %}</span>
+              </a>
+            </li>
+            {%- endfor -%}
+          </ul>
+        </section>
+      </div>
+    </aside>
   </div>
-  <div class="archive__content">
-		<div class="archive__list">
-			<ul>
-      {%- assign pages = site[page.pages] | default: site.posts -%}
-			{%- for page in pages -%}
-				<li class="archive__item">
-					<a href="{{ page.url | relative_url }}" class="archive__link clearfix">
-            <span class="archive__time">{%- if page.layout == 'book' -%}{{ page.date }}{%- else -%}{{ page.date | date: "%Y-%m-%d" }}{%- endif -%}</span>
-						<span class="archive__title">{{ page.title }}</span>
-					</a>
-				</li>
-			{%- endfor -%}
-			</ul>
-		</div>
-  </div>
-  {%- include footer.html -%}
 </main>
+{%- include footer.html -%}
