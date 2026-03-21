@@ -2,39 +2,109 @@
 layout: default
 ---
 {%- include header.html -%}
-<main class="post__archive">
-  {%- include header_nav.html -%}
+{%- include header_nav.html -%}
+<main class="home">
   {%- if paginator -%}
   {%- assign posts=paginator.posts -%}
   {%- else -%}
   {%- assign posts=site.posts -%}
   {%- endif -%}
-  {%- for post in posts -%}
-    <article class="post__entry {% if post.layout == 'essay' %}post__entry--essay{% endif %}">
-      <a href="{{ post.url | relative_url }}" class="post__entry__link">
-        {%- if post.layout != 'essay' and post.image -%}
-        <img class="post__entry__thumb" src="{{ post.image | replace: 'w=1200&h=630', 'w=600&h=315' }}" alt="{{ post.image_alt | default: post.title | escape }}" loading="lazy" width="600" height="315">
+
+  {%- comment -%} Lead story + sidebar grid {%- endcomment -%}
+  <div class="home__grid">
+
+    {%- comment -%} Lead story: first post {%- endcomment -%}
+    {%- assign lead = posts | first -%}
+    <section class="home__lead">
+      <a href="{{ lead.url | relative_url }}" class="home__lead-link group">
+        {%- if lead.image -%}
+        <div class="home__lead-image">
+          <img src="{{ lead.image }}" alt="{{ lead.image_alt | default: lead.title | escape }}" loading="eager" width="1200" height="630">
+        </div>
         {%- endif -%}
-        <div class="post__entry__text">
-          {%- if post.layout == 'essay' -%}
-          <span class="post__entry__label">Essay</span>
+        <div class="home__lead-text">
+          <span class="home__label home__label--accent">
+            {%- if lead.layout == 'essay' -%}The Long Read{%- else -%}Latest{%- endif -%}
+          </span>
+          <h1 class="home__lead-title">{{ lead.title }}</h1>
+          {%- if lead.description -%}
+          <p class="home__lead-subtitle">{{ lead.description }}</p>
           {%- endif -%}
-          <h2>{{ post.title }}</h2>
-          <div class="post__meta">
-            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
-            {%- assign words = post.content | number_of_words -%}
+          <div class="home__lead-byline">
+            <span class="home__byline-author">By {{ lead.author | default: site.author }}</span>
+            <span class="home__byline-rule"></span>
+            {%- assign words = lead.content | number_of_words -%}
             {%- assign minutes = words | divided_by: 238 -%}
             {%- if minutes < 1 -%}{%- assign minutes = 1 -%}{%- endif -%}
-            <span class="post__reading-time"> · {{ minutes }} min read</span>
-          </div>
-          <div class="post__excerpt">
-            {{ post.excerpt | markdownify | strip_html | truncate: 500 }}
+            <span class="home__byline-meta">{{ minutes }} Min Read</span>
           </div>
         </div>
-        <div class="post__more_arrow"></div>
       </a>
-    </article>
-  {%- endfor -%}
+
+      {%- comment -%} Secondary row: posts 2 and 3 {%- endcomment -%}
+      {%- if posts.size > 2 -%}
+      <div class="home__secondary">
+        {%- for post in posts limit:2 offset:1 -%}
+        <article class="home__secondary-item">
+          <a href="{{ post.url | relative_url }}" class="group">
+            <span class="home__label">{{ post.categories | first | capitalize }}</span>
+            <h3 class="home__secondary-title">{{ post.title }}</h3>
+            {%- if post.description -%}
+            <p class="home__secondary-excerpt">{{ post.description | truncate: 140 }}</p>
+            {%- endif -%}
+          </a>
+        </article>
+        {%- endfor -%}
+      </div>
+      {%- endif -%}
+    </section>
+
+    {%- comment -%} Sidebar: recent posts as quick hits {%- endcomment -%}
+    <aside class="home__sidebar">
+      <div class="home__sidebar-inner">
+        <h2 class="home__sidebar-heading">Recent</h2>
+        <div class="home__sidebar-items">
+          {%- for post in posts limit:4 offset:3 -%}
+          <a href="{{ post.url | relative_url }}" class="home__sidebar-item group">
+            <span class="home__sidebar-date">{{ post.date | date: "%b %-d" }}</span>
+            <h4 class="home__sidebar-title">{{ post.title }}</h4>
+            {%- if post.description -%}
+            <p class="home__sidebar-excerpt">{{ post.description | truncate: 100 }}</p>
+            {%- endif -%}
+          </a>
+          {%- endfor -%}
+        </div>
+      </div>
+    </aside>
+  </div>
+
+  {%- comment -%} "More" section: remaining posts in 3-column grid with images {%- endcomment -%}
+  {%- if posts.size > 7 -%}
+  <section class="home__more">
+    <div class="home__more-heading">
+      <h2>More Essays &amp; Posts</h2>
+      <div class="home__more-rule"></div>
+    </div>
+    <div class="home__more-grid">
+      {%- for post in posts limit:6 offset:7 -%}
+      <a href="{{ post.url | relative_url }}" class="home__card group">
+        {%- if post.image -%}
+        <div class="home__card-image">
+          <img src="{{ post.image | replace: 'w=1200&h=630', 'w=600&h=750' }}" alt="{{ post.image_alt | default: post.title | escape }}" loading="lazy" width="600" height="750">
+        </div>
+        {%- endif -%}
+        <span class="home__label">{{ post.categories | first | capitalize }}</span>
+        <h3 class="home__card-title">{{ post.title }}</h3>
+        {%- if post.description -%}
+        <p class="home__card-excerpt">{{ post.description | truncate: 120 }}</p>
+        {%- endif -%}
+        <span class="home__card-readmore">Read More</span>
+      </a>
+      {%- endfor -%}
+    </div>
+  </section>
+  {%- endif -%}
+
   {%- include pagination.html -%}
 </main>
 {%- include footer.html -%}
