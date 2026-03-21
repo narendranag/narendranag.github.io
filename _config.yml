@@ -62,10 +62,16 @@ theme_setting:
     nav_pages:
       - url: /archive
         title: Archive
+      - url: /topics/sports
+        title: Sports
+      - url: /topics/media
+        title: Media
+      - url: /topics/streaming
+        title: Streaming
+      - url: /topics/development
+        title: Building
       - url: /about
         title: About
-      - url: /where-in-the-world-is-naren
-        title: Where
 #      - url: /projects/
 #        title: Projects
     # -

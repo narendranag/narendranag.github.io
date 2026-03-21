@@ -1,0 +1,77 @@
+---
+layout: default
+---
+{%- include header.html -%}
+<main class="archive">
+  <div class="archive__grid">
+    <div class="archive__index">
+      <header class="archive__hero">
+        <h1 class="archive__title">{{ page.title }}</h1>
+        <p class="archive__subtitle">{{ page.description }}</p>
+      </header>
+
+      {%- assign posts = site.posts | where_exp: "p", "p.categories contains page.category" -%}
+      {%- assign currentYear = "" -%}
+      {%- assign currentMonth = "" -%}
+
+      {%- for post in posts -%}
+        {%- assign postYear = post.date | date: "%Y" -%}
+        {%- assign postMonth = post.date | date: "%B" -%}
+
+        {%- if postYear != currentYear -%}
+          {%- if currentYear != "" -%}</div>{%- endif -%}
+          <div class="archive__year-group">
+            <div class="archive__year-header">
+              <h2 class="archive__year">{{ postYear }}</h2>
+              <div class="archive__year-rule"></div>
+            </div>
+          {%- assign currentYear = postYear -%}
+          {%- assign currentMonth = "" -%}
+        {%- endif -%}
+
+        {%- if postMonth != currentMonth -%}
+          <h3 class="archive__month">{{ postMonth }}</h3>
+          {%- assign currentMonth = postMonth -%}
+        {%- endif -%}
+
+        <article class="archive__entry">
+          <a href="{{ post.url | relative_url }}" class="archive__entry-link group">
+            <span class="archive__entry-date">{{ post.date | date: "%b %-d" }}</span>
+            <div class="archive__entry-content">
+              <h4 class="archive__entry-title">{{ post.title }}</h4>
+              {%- if post.layout == 'essay' -%}
+              <span class="archive__entry-tag">Essay</span>
+              {%- endif -%}
+            </div>
+          </a>
+        </article>
+      {%- endfor -%}
+      {%- if currentYear != "" -%}</div>{%- endif -%}
+
+      {%- if posts.size == 0 -%}
+      <p class="archive__subtitle">No posts in this category yet.</p>
+      {%- endif -%}
+    </div>
+
+    <aside class="archive__sidebar">
+      <div class="archive__sidebar-inner">
+        <section class="archive__collections">
+          <h5 class="archive__collections-heading">All Topics</h5>
+          <ul class="archive__collections-list">
+            {%- assign categories = site.posts | map: "categories" | flatten | uniq | sort -%}
+            {%- for cat in categories -%}
+            {%- assign cat_posts = site.posts | where_exp: "p", "p.categories contains cat" -%}
+            <li>
+              <a href="{{ '/topics/' | append: cat | relative_url }}" class="archive__collection-link group {% if page.category == cat %}active{% endif %}">
+                <span class="archive__collection-name">{{ cat | capitalize }}</span>
+                <span class="archive__collection-count">{{ cat_posts.size }}</span>
+              </a>
+            </li>
+            {%- endfor -%}
+          </ul>
+        </section>
+      </div>
+    </aside>
+  </div>
+</main>
+{%- include footer.html -%}
