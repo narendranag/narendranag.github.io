@@ -1,24 +1,19 @@
-<a href="{{ "/" | relative_url }}" class="logo" aria-label="{{ site.title }} - Home">
-  {%- if site.logo -%}
-  <img src="{{ site.logo | img_url_prefix }}" class="logo_img" alt="{{ site.title }} logo">
-  {%- endif -%}
-  <h1>{{ site.title }}</h1>
-</a>
-{%- if "slides,chapter,book" contains page.layout and site.theme_setting.archive_page -%}
-{%- assign archive_page = site.pages | where: "path", site.theme_setting.archive_page | first -%}
-<button class="sidebar__toggler" aria-label="Toggle navigation menu" aria-expanded="false">
-  <span class="sidebar__toggler_top"></span>
-  <span class="sidebar__toggler_middle"></span>
-  <span class="sidebar__toggler_bottom"></span>
-</button>
-{%- endif %}
-{%- if page.layout == "chapter" -%}
-<div class="book-header" role="navigation">
-    <a href="#" id="summaryToggler" class="summary__toggler" aria-label="Toggle chapter list">
-      {% include icons/ellipsis.html%}
-    </a>
-  <h1>
-    {{ page.title }} - {{ page.book.title }}
-  </h1>
-</div>
-{%- endif -%}
+<header class="site-header" role="banner">
+  <div class="site-header__inner">
+    <a href="{{ "/" | relative_url }}" class="site-header__name" aria-label="{{ site.title }} - Home">{{ site.title }}</a>
+    {%- if site.theme_setting.nav_pages -%}
+    <nav class="site-header__nav" aria-label="Main navigation">
+      {%- for page_path in site.theme_setting.nav_pages -%}
+        {%- if page_path.url -%}
+          {%- assign my_page = page_path -%}
+        {%- else -%}
+          {%- assign my_page = site.pages | where: "path", page_path | first -%}
+        {%- endif -%}
+        {%- if my_page.title -%}
+        <a href="{{ my_page.url | relative_url }}" class="site-header__link {% if page.url == my_page.url %}active{% endif %}">{{ my_page.title }}</a>
+        {%- endif -%}
+      {%- endfor -%}
+    </nav>
+    {%- endif -%}
+  </div>
+</header>

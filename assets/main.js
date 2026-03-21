@@ -8,14 +8,14 @@
 (function () {
   "use strict";
 
-  /* --- Glassmorphic nav: increase opacity on scroll --- */
-  var topNav = document.querySelector(".top-nav");
-  if (topNav) {
+  /* --- Header: increase opacity on scroll --- */
+  var header = document.querySelector(".site-header");
+  if (header) {
     window.addEventListener("scroll", function () {
       if (window.scrollY > 100) {
-        topNav.classList.add("top-nav--scrolled");
+        header.classList.add("site-header--scrolled");
       } else {
-        topNav.classList.remove("top-nav--scrolled");
+        header.classList.remove("site-header--scrolled");
       }
     });
   }

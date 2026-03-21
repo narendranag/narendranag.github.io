@@ -1,14 +1,15 @@
 <footer class="site-footer">
-  <a href="{{ '/' | relative_url }}" class="footer__site-name">{{ site.title }}</a>
-  <nav class="footer__nav" aria-label="Footer navigation">
-    <a href="{{ '/' | relative_url }}">Home</a>
-    <a href="{{ '/archive' | relative_url }}">Archive</a>
-    <a href="{{ '/about' | relative_url }}">About</a>
-    {%- if site.rss %}
-    <a href="{{ site.rss | absolute_url }}" aria-label="RSS Feed">RSS</a>
-    {%- endif %}
-  </nav>
-  <p class="footer__copy">&copy; {{ site.time | date: "%Y" }} {{ site.title }}. All Rights Reserved.</p>
+  <div class="site-footer__inner">
+    <a href="{{ '/' | relative_url }}" class="site-footer__name">{{ site.title }}</a>
+    <nav class="site-footer__nav" aria-label="Footer navigation">
+      <a href="{{ '/about' | relative_url }}">About</a>
+      <a href="{{ '/archive' | relative_url }}">Archive</a>
+      {%- if site.rss %}
+      <a href="{{ site.rss | absolute_url }}" aria-label="RSS Feed">RSS</a>
+      {%- endif %}
+    </nav>
+    <p class="site-footer__copy">&copy; {{ site.time | date: "%Y" }} {{ site.title }}. All Rights Reserved.</p>
+  </div>
 
   {%- if site.google_analytics and jekyll.environment == 'production' -%}
   <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
