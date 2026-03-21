@@ -133,6 +133,7 @@ exclude:
   - Gemfile.lock
   - node_modules
   - writing-style.md
+  - DESIGN.md
   - vendor/bundle/
   - vendor/cache/
   - vendor/gems/
