@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: essay
 title: "The Game That Was Always There: Women's Soccer, the NWSL, and Why Sunday Night Just Changed Forever"
 date: 2026-03-19
 description: "Women's soccer in America has endured two collapsed leagues, decades of underfunding, and a media ecosystem that never matched the demand. With the NWSL's record-shattering 2026 season and Sunday Night Soccer on Victory+, the infrastructure is finally catching up."

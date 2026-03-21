@@ -1,0 +1,58 @@
+---
+layout: default
+---
+{%- include header.html -%}
+{%- include header_nav.html -%}
+<div class="essay__progress-bar">
+  <div class="essay__progress-fill"></div>
+</div>
+<main class="essay__wrapper">
+  <header class="essay__header">
+    <div class="essay__label">
+      {%- assign words = page.content | number_of_words -%}
+      {%- assign minutes = words | divided_by: 238 -%}
+      {%- if minutes < 1 -%}{%- assign minutes = 1 -%}{%- endif -%}
+      Long-Form Essay &bull; {{ minutes }} Min Read
+    </div>
+    <h1 class="essay__title">{{ page.title | escape }}</h1>
+    {%- if page.description -%}
+    <p class="essay__subtitle">{{ page.description }}</p>
+    {%- endif -%}
+    <div class="essay__byline">
+      <div class="essay__byline-avatar"></div>
+      <div class="essay__byline-info">
+        <div class="essay__byline-name">{{ page.author | default: site.author }}</div>
+      </div>
+    </div>
+  </header>
+  {%- if page.image -%}
+  <figure class="essay__hero">
+    <img src="{{ page.image }}" alt="{{ page.image_alt | default: page.title | escape }}" loading="eager" width="1200" height="630">
+    {%- if page.image_caption -%}
+    <figcaption>{{ page.image_caption }}</figcaption>
+    {%- endif -%}
+  </figure>
+  {%- endif -%}
+  <article class="essay__body content">
+    {{ content | toc | img_prefix }}
+  </article>
+  <div class="essay__share">
+    <div class="essay__share-label">Share this essay</div>
+    <div class="essay__share-links">
+      <a href="https://twitter.com/intent/tweet?url={{ page.url | absolute_url | url_encode }}&text={{ page.title | url_encode }}" target="_blank" rel="noopener">X (Twitter)</a>
+      <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ page.url | absolute_url | url_encode }}" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+  </div>
+</main>
+{%- include footer.html -%}
+<script>
+(function() {
+  var fill = document.querySelector('.essay__progress-fill');
+  if (!fill) return;
+  window.addEventListener('scroll', function() {
+    var h = document.documentElement.scrollHeight - window.innerHeight;
+    var pct = h > 0 ? (window.scrollY / h) * 100 : 0;
+    fill.style.width = pct + '%';
+  });
+})();
+</script>
