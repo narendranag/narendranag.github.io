@@ -6,6 +6,8 @@ description: "Women's soccer in America has endured two collapsed leagues, decad
 categories: [sports, media, streaming]
 keywords: "NWSL, women's soccer, Victory+, Sunday Night Soccer, sports streaming, Title IX, USWNT"
 author: Narendra Nag
+image: "https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=1200&h=630&fit=crop&q=80"
+image_alt: "A soccer ball resting on a grass pitch under stadium lights"
 ---
 
 Here is something I keep coming back to. A number that, once you see it, you cannot unsee.
@@ -42,6 +44,8 @@ July 10th. The Rose Bowl, Pasadena, California. Over 90,000 fans packed into the
 
 The '99 World Cup should have been the beginning. Instead, it became the high-water mark of a wave that would crash twice before it learned how to sustain itself.
 
+![A packed stadium with fans filling every section under evening lights](https://images.unsplash.com/photo-1459865264687-595d652de67e?w=1100&h=550&fit=crop&q=80)
+
 ---
 
 ## Two Leagues, Two Collapses
@@ -61,6 +65,8 @@ Two professional leagues. Two collapses. Fourteen years of trying, from 2001 to 
 The pattern seemed clear to the skeptics: women's professional soccer in America was a noble idea that the market simply did not support. The demand was there for national team events — World Cups and Olympics — but not for week-to-week domestic league play. Women's soccer, they argued, was a quadrennial phenomenon. You could sell the World Cup. You could not sell a Tuesday night in May.
 
 The skeptics were wrong. But it would take another decade to prove it. And the proof would come not from replicating what had failed, but from rethinking the model entirely.
+
+![An empty soccer pitch with fresh chalk lines and open sky](https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?w=1100&h=550&fit=crop&q=80)
 
 ---
 
@@ -99,6 +105,8 @@ Read that again. The NWSL went from $1.5 million to $60 million per year in medi
 The deal put NWSL games on ABC, CBS, ESPN, ION, and Prime Video. For the first time, the league had a genuine national broadcast footprint. Fans no longer needed to hunt through three different apps to find their team's game on any given weekend.
 
 Almost.
+
+![A roaring crowd of fans on their feet in a modern stadium](https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=1100&h=550&fit=crop&q=80)
 
 ---
 
@@ -141,6 +149,8 @@ Let me unpack why this specific construct matters.
 Sunday night is the most valuable real estate in American television. It has been for decades. It is when the largest audiences assemble. It is when cultural habits form. NFL Sunday Night Football is not just a broadcast; it is a national ritual. By giving women's soccer a dedicated, predictable, primetime Sunday window, we are not just airing games. We are building a habit. We are saying: every Sunday night, this is where women's soccer lives. You do not need to check a schedule. You do not need to figure out which network has this week's game. You show up on Sunday night, you get the best matchup the NWSL has to offer, and it is free.
 
 That consistency matters more than people realize. Discovery is the number one problem in sports media today. There is no shortage of content. There is a massive shortage of reliable appointment viewing that new fans can lock into without effort. Sunday Night Soccer creates that.
+
+![A television screen glowing in a darkened living room](https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=1100&h=550&fit=crop&q=80)
 
 ---
 
@@ -189,6 +199,8 @@ Every other attempt to grow the sport's domestic audience has started from the s
 What we are doing with Sunday Night Soccer is inverting that model. We are starting from the audience side. We are asking: what does a new fan need? They need the game to be easy to find. They need it to be free. They need it to be on a schedule they can predict. They need it to come with context and community and the kind of surrounding content that turns a casual viewer into someone who has a favorite team.
 
 And then we are building exactly that.
+
+![Stadium floodlights cutting through the night sky](https://images.unsplash.com/photo-1471295253337-3ceaaedca402?w=1100&h=550&fit=crop&q=80)
 
 ---
 
