@@ -8,6 +8,7 @@ keywords: "live sports, AI disruption, sports economics, cultural resilience, me
 author: Narendra Nag
 image: "https://images.unsplash.com/photo-1549333580-4cb2c5c8e421?w=1200&h=630&fit=crop&q=80"
 image_alt: "A stadium illuminated under night lights"
+last_modified_at: 2026-03-21
 ---
 
 ## Introduction: The Illusion of Total Flux

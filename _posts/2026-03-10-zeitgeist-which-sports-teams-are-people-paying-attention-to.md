@@ -8,6 +8,7 @@ keywords: "sports attention, NBA, MLB, NHL, digital analytics, sports data dashb
 author: Narendra Nag
 image: "https://images.unsplash.com/photo-1699862731387-d40f6908ca4e?w=1200&h=630&fit=crop&q=80"
 image_alt: "A large crowd filling a sports arena"
+last_modified_at: 2026-03-21
 ---
 I've been thinking about attention a lot lately.
 

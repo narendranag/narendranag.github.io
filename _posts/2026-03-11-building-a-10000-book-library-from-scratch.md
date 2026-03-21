@@ -8,6 +8,7 @@ keywords: "digital library, book curation, REST API, literature, science fiction
 author: Narendra Nag
 image: "https://images.unsplash.com/photo-1719965648599-ee6da9695c78?w=1200&h=630&fit=crop&q=80"
 image_alt: "Floor-to-ceiling bookshelves in a grand library"
+last_modified_at: 2026-03-21
 ---
 
 I've always believed that a good library tells you something about the person who built it. Not just what they read, but how they think about the world — what they consider important, what they want to understand, what they return to.

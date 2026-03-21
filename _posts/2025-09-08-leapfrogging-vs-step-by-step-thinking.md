@@ -8,6 +8,7 @@ keywords: "leapfrogging, technology adoption, mobile payments, streaming, M-Pesa
 author: Narendra Nag
 image: "https://images.unsplash.com/photo-1752386452380-7bbe4f1ed7f7?w=1200&h=630&fit=crop&q=80"
 image_alt: "A spiral staircase viewed from below, evoking upward progress"
+last_modified_at: 2026-03-21
 ---
 
 Development can follow a step-by-step trajectory — the idea that each stage of technology or infrastructure must follow sequentially — or it can take a leapfrogging approach, where societies skip intermediate steps and jump straight to more advanced solutions. In recent years, we have observed many cases of technological leapfrogging in which late-adopting countries or industries bypass older legacy stages entirely.

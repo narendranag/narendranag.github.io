@@ -8,6 +8,7 @@ keywords: "NYT crossword, New York Times, puzzles, pattern recognition, daily ha
 author: Narendra Nag
 image: "https://images.unsplash.com/photo-1732811797813-16f831d5533f?w=1200&h=630&fit=crop&q=80"
 image_alt: "A crossword puzzle with a pencil"
+last_modified_at: 2026-03-21
 ---
 I started solving crosswords in high school. Newspapers were a daily essential back in the nineties (the last century!) and we used to get the [Times of India](https://timesofindia.com). It had (and still carries) a pretty decent crossword — I don't remember where it was syndiated from, but it may have been from The Times newspaper in the UK. 
 

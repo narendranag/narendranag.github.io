@@ -8,6 +8,7 @@ keywords: "streaming platform, OTT launch, direct to consumer, Cisco training, l
 author: Narendra Nag
 image: "https://images.unsplash.com/photo-1637065463674-4595b7f32adc?w=1200&h=630&fit=crop&q=80"
 image_alt: "Live streaming broadcast setup with camera and monitors"
+last_modified_at: 2026-03-21
 ---
 Khawar, or KB as he insists on being called, has been teaching people how to become Cisco Networking experts for thirty-odd years.
 

@@ -8,6 +8,7 @@ keywords: "career transitions, journalism, digital marketing, streaming, media e
 author: Narendra Nag
 image: "https://images.unsplash.com/photo-1517173524746-c8e3c136d4f7?w=1200&h=630&fit=crop&q=80"
 image_alt: "A winding path stretching into the distance"
+last_modified_at: 2026-03-21
 ---
 In the year 2000 I was transitioning from running an independent web-design shop to working as a reporter for a traditional newspaper. In 2020, I find myself leading a team trying to build and launch the most advanced video platform as a service this world has ever seen.
 

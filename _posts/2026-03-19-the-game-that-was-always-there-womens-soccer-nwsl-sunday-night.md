@@ -8,6 +8,7 @@ keywords: "NWSL, women's soccer, Victory+, Sunday Night Soccer, sports streaming
 author: Narendra Nag
 image: "https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=1200&h=630&fit=crop&q=80"
 image_alt: "A soccer ball resting on a grass pitch under stadium lights"
+last_modified_at: 2026-03-21
 ---
 
 Here is something I keep coming back to. A number that, once you see it, you cannot unsee.

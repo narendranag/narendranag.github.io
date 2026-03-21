@@ -8,6 +8,7 @@ keywords: "human attention, media monetization, advertising, content strategy, a
 author: Narendra Nag
 image: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=1200&h=630&fit=crop&q=80"
 image_alt: "A person in deep meditation and focus"
+last_modified_at: 2026-03-21
 ---
 
 I have spent the better part of the last decade thinking about one thing: why do people watch what they watch?
