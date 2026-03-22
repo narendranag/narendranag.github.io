@@ -11,7 +11,7 @@ image_alt: "A circuit board with glowing connections, evoking early computing"
 last_modified_at: 2026-03-21
 ---
 
-Brilliants Computer Centre, Jaipur, 1995. I am sitting in front of a beige 286 machine with an amber monochrome monitor, the air thick with the hum of a dozen identical PCs and the particular brand of sweat that comes from thirty people sharing a room with no air conditioning in Rajasthan. The keyboard is mechanical and heavy — the kind where every keystroke announces itself to the room. I am sixteen years old and I am writing Clipper code.
+Brilliants Computer Centre, Jaipur, 1995. I am sitting in front of a beige 286 machine with an amber monochrome monitor, the air thick with the hum of a dozen identical PCs and that smell of cold air conditioning in Rajasthan. The keyboard is mechanical and heavy — the kind where every keystroke announces itself to the room. I am sixteen years old and I am writing Clipper code.
 
 I type `DO MAIN` at the DOS prompt and press Enter. The screen clears. Then, character by character, a box draws itself — top-left corner first, then the horizontal line racing across the top, then the right corner dropping down, the sides descending in unison, and finally the bottom sealing itself shut. Inside the box, a menu appears. Below it, a shadow — two characters wide, one character tall — painted in dark gray to give the illusion of depth. On a flat, text-only screen, my program looks like it has windows. It looks, to my sixteen-year-old eyes, like magic.
 
