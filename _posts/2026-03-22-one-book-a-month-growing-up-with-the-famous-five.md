@@ -13,7 +13,7 @@ last_modified_at: 2026-03-22
 
 One book a month. That was the deal.
 
-My younger brother and I had worked it out with the precision that only children negotiating the allocation of scarce resources can achieve. We would pool our pocket money — mine, his, and whatever loose change we could extract from the sofa cushions or from being unusually helpful around the house — and once a month, we would walk to the bookshop and buy one Enid Blyton book. One. Not two. We could not afford two.
+My younger brother and I had worked it out with the precision that only children negotiating the allocation of scarce resources can achieve. We would pool our pocket money — mine, his, and whatever loose change we could extract from the sofa cushions or from being unusually helpful around the house — and once a month, we would go to the bookshop and buy one Enid Blyton book. One. Not two. We could not afford two.
 
 The negotiation over which book to buy was serious business. We had a system. We alternated who got to pick. The picker also got to read the book first, which was the real prize. The other one had to wait — sometimes an entire day, sometimes two, sometimes an agonizing three if the reader was the type to savor things slowly. (I was not that type. My brother was. He did it on purpose.)
 
@@ -31,9 +31,9 @@ Julian was the eldest and therefore in charge, which seemed right and natural. D
 
 George was, without question, the character we both wanted to be. Not Julian, who was sensible. Not Dick, who was agreeable. Not Anne, who was anxious. George, who was angry and loyal and refused to be told what to do. George, who had a castle on her island — a ruined castle, but a castle nonetheless — and a dog who was smarter than most adults in the books.
 
-(My brother and I also had a dog. A large, enthusiastic mongrel who was nothing like Timmy in temperament or intelligence but whom we loved with the same uncritical devotion. We would sometimes try to bring him on "adventures" in the neighborhood. He would eat something disgusting and we would have to carry him home. Timmy would never.)
+(My brother and I also had a dog. An enthusiastic mongrel who was nothing like Timmy in temperament or intelligence but whom we loved with the same uncritical devotion. We would sometimes try to bring him on "adventures" in the neighborhood. He would eat something disgusting and we would have to carry him home. Timmy would never.)
 
-> We did not have cliffs or caves or smugglers. We had dusty lanes and a neighborhood park with exactly one functioning swing. But we had the books. And the books were enough.
+> We did not have cliffs or caves or smugglers. We had dusty lanes and a large garden and our cycles and our friends. But we had the books. And the books were enough.
 
 ![A warm library with shelves of old books](https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1100&h=550&fit=crop&q=80)
 
@@ -69,10 +69,6 @@ What I loved was the caravan itself. The idea of a home that moved. A tiny, self
 
 ![A winding country road through green hills](https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?w=1100&h=550&fit=crop&q=80)
 
-My brother preferred this one to *Five Run Away Together*. He liked the movement, the newness of each day, the circus subplot. I liked the stillness of the island, the sense of a fixed base, the fortress. This, I think, says something about us that has remained true into adulthood — he has always been the one who moves toward new things, and I have always been the one who builds a place and defends it.
-
-(We did not articulate this at the time. At the time, the argument was: "The caravan book is better." "No, the island book is better." "The caravan has horses." "The island has a CASTLE." This went on for years.)
-
 ---
 
 ## What Blyton Was Actually Teaching Us
@@ -89,7 +85,7 @@ And she taught us pace. The Famous Five books are short — 40,000 words, maybe 
 
 > She taught us that reading was a shared activity — a thing to be discussed, argued over, compared, ranked. "Is this one better than the last one?" was a question we asked after every single book.
 
-When I [built a 10,000-book digital library](https://narendranag.com/2026/03/11/building-a-10000-book-library-from-scratch.html) a few years ago, I included an entire section for children's adventure fiction — Blyton, of course, but also the Hardy Boys, the Three Investigators, Tintin. These were the gateway. Every serious reader I know can point to the books that made them a reader, and for a very large number of people who grew up in India or Britain or Australia or really anywhere in the English-speaking world, those books were Enid Blyton's.
+When I [built a 10,000-book digital library](https://narendranag.com/2026/03/11/building-a-10000-book-library-from-scratch.html), I included an entire section for children's adventure fiction — Blyton, of course, but also the Hardy Boys, the Three Investigators, Tintin. These were the gateway. Every serious reader I know can point to the books that made them a reader, and for a very large number of people who grew up in India or Britain or Australia or really anywhere in the English-speaking world, those books were Enid Blyton's.
 
 ---
 
@@ -107,7 +103,7 @@ I think about him sometimes when I think about the [attention economy](https://n
 
 ---
 
-Twenty-one books. One a month. Two brothers on a 286-era budget (though we weren't buying computers — we were buying paperbacks). Summers in Rajasthan where the temperature outside made reading indoors not just pleasant but necessary. A dog who was no Timmy. A running argument about islands versus caravans that has never been resolved and never will be.
+Twenty-one books. One a month. Two brothers on a pre-liberalization-era budget (though we weren't buying computers — we were buying paperbacks). Summers in Rajasthan where the temperature outside made reading indoors not just pleasant but necessary. A dog who was no Timmy. 
 
 I do not know if my brother still has his copies. I do not have mine — they were lost in one of the many moves that happen when you grow up and leave home and live in different cities and different countries. But I can still see those yellow-and-blue spines on that middle shelf. I can still feel the weight of a new paperback in my hand, the spine uncracked, the pages stiff. I can still feel the urgency of wanting to start reading immediately and the particular torture of having to wait because it was my brother's turn to go first.
 
