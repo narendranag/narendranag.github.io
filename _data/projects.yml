@@ -1,0 +1,126 @@
+- name: ad-maker
+  url: https://github.com/narendranag/ad-maker
+  description: "A platform that lets advertisers generate 20-second video ads by entering a short text prompt and uploading a logo"
+  language: CSS
+
+- name: mediatailor-ads
+  url: https://github.com/narendranag/mediatailor-ads
+  description: "AWS MediaTailor ad insertion pipeline — S3 ingest, MediaConvert transcoding, CloudFront CDN"
+  language: Python
+
+- name: publish-ott-tv
+  url: https://github.com/narendranag/publish-ott-tv
+  description: "Self-serve publisher app for streaming services"
+  language: TypeScript
+
+- name: victoryplus-live-game-dashboard
+  url: https://github.com/narendranag/victoryplus-live-game-dashboard
+  description: "Live game dashboard for sports streaming"
+  language: JavaScript
+
+- name: adstxt-analyzer
+  url: https://github.com/narendranag/adstxt-analyzer
+  description: "Ads.txt parser and analysis tool"
+  language: Python
+
+- name: reddit-sentiment-analysis
+  url: https://github.com/narendranag/reddit-sentiment-analysis
+  description: "Sentiment analysis for Reddit posts and comments"
+  language: TypeScript
+
+- name: hotel-reviews-sentiment
+  url: https://github.com/narendranag/hotel-reviews-sentiment
+  description: "Sentiment analysis for hotel reviews"
+  language: Python
+
+- name: recipe-book
+  url: https://github.com/narendranag/recipe-book
+  description: "Nag Family Recipes — a family recipe website inspired by NYT Cooking"
+  language: MDX
+  homepage: https://recipe-book-beta-two.vercel.app
+
+- name: particle-accelerator
+  url: https://github.com/narendranag/particle-accelerator
+  description: "Gold-197 relativistic heavy-ion collision simulator — interactive particle physics visualization"
+  language: HTML
+
+- name: where-in-the-world-is-naren
+  url: https://github.com/narendranag/where-in-the-world-is-naren
+  description: "Interactive map showcasing places around the world where I have traveled or lived"
+  language: HTML
+  homepage: https://narendranag.com/where-in-the-world-is-naren/
+
+- name: ultimate-book-library
+  url: https://github.com/narendranag/ultimate-book-library
+  description: "A master file with the best books in the world, and scripts to help create and maintain that list"
+  language: Python
+
+- name: passages
+  url: https://github.com/narendranag/passages
+  description: "The best things to read"
+  language: JavaScript
+
+- name: interest-map
+  url: https://github.com/narendranag/interest-map
+  description: "Interactive interest mapping experiment"
+  language: Python
+
+- name: Chronicle
+  url: https://github.com/narendranag/Chronicle
+  description: "RESTful blog CMS built using CodeIgniter"
+  language: PHP
+
+- name: Profectus
+  url: https://github.com/narendranag/Profectus
+  description: "Next generation retail software"
+  language:
+
+- name: succint-word-search
+  url: https://github.com/narendranag/succint-word-search
+  description: "Succinct data structures — cramming 80,000 words into a JavaScript file"
+  language: JavaScript
+
+- name: collatz-conjecture
+  url: https://github.com/narendranag/collatz-conjecture
+  description: "Pretty graphs showing the Collatz conjecture in action"
+  language: Python
+
+- name: mandelbrot
+  url: https://github.com/narendranag/mandelbrot
+  description: "Mandelbrot set fractal renderer"
+  language: JavaScript
+
+- name: oil-vs-stock-tracker
+  url: https://github.com/narendranag/oil-vs-stock-tracker
+  description: "Oil price vs stock market tracker"
+  language: HTML
+
+- name: py-tetris
+  url: https://github.com/narendranag/py-tetris
+  description: "Classic Tetris game"
+  language: Python
+
+- name: squashy-squash
+  url: https://github.com/narendranag/squashy-squash
+  description: "A game built with Claude AI"
+  language: HTML
+
+- name: attendance
+  url: https://github.com/narendranag/attendance
+  description: "A simple app to allow an organization's members to check in and check out of work"
+  language: Ruby
+
+- name: timetable
+  url: https://github.com/narendranag/timetable
+  description: "Prints out a table showing time across different timezones"
+  language: C
+
+- name: probe-assembler-on-arm64
+  url: https://github.com/narendranag/probe-assembler-on-arm64
+  description: "Exploring assembler on Apple Silicon"
+  language: Assembly
+
+- name: web-clipper
+  url: https://github.com/narendranag/web-clipper
+  description: "Web content clipper"
+  language: HTML

@@ -1,0 +1,147 @@
+---
+layout: default
+---
+{%- include header.html -%}
+<style>
+  .projects {
+    max-width: 42rem;
+    margin: 0 auto;
+    padding: 2rem 1.5rem 5.5rem;
+  }
+  .projects__hero {
+    margin-bottom: 3.5rem;
+  }
+  .projects__title {
+    font-family: 'Newsreader', serif;
+    font-size: 2.75rem;
+    font-weight: 700;
+    color: #1e1e1e;
+    line-height: 1.15;
+    margin: 0 0 1rem;
+  }
+  .projects__subtitle {
+    font-family: 'Newsreader', serif;
+    font-size: 1.125rem;
+    color: #555;
+    line-height: 1.6;
+    margin: 0;
+  }
+  .projects__list {
+    display: flex;
+    flex-direction: column;
+  }
+  .projects__item {
+    display: block;
+    padding: 1.25rem 0;
+    text-decoration: none;
+    color: inherit;
+    transition: background-color 0.15s ease;
+  }
+  .projects__item:hover {
+    background-color: #f4f4f0;
+    margin-left: -1rem;
+    margin-right: -1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .projects__item-header {
+    display: flex;
+    align-items: baseline;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+  }
+  .projects__item-name {
+    font-family: 'Newsreader', serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #1e1e1e;
+    margin: 0;
+    line-height: 1.3;
+  }
+  .projects__item-lang {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.7rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+    color: #666;
+    background: #f4f4f0;
+    padding: 0.15rem 0.5rem;
+  }
+  .projects__item:hover .projects__item-lang {
+    background: #e3e2df;
+  }
+  .projects__item-desc {
+    font-family: 'Newsreader', serif;
+    font-size: 0.95rem;
+    color: #555;
+    line-height: 1.5;
+    margin: 0.35rem 0 0;
+  }
+  .projects__item-homepage {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.75rem;
+    color: #888;
+    margin-top: 0.25rem;
+    text-decoration: none;
+  }
+  .projects__footer {
+    margin-top: 3.5rem;
+    padding-top: 2rem;
+  }
+  .projects__footer-text {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.8rem;
+    color: #888;
+    letter-spacing: 0.02rem;
+  }
+  .projects__footer-text a {
+    color: #1e1e1e;
+    text-decoration: none;
+  }
+  .projects__footer-text a:hover {
+    text-decoration: underline;
+  }
+  @media (max-width: 640px) {
+    .projects {
+      padding: 1.5rem 1rem 4rem;
+    }
+    .projects__title {
+      font-size: 2rem;
+    }
+    .projects__hero {
+      margin-bottom: 2.5rem;
+    }
+  }
+</style>
+<main class="projects">
+  <header class="projects__hero">
+    <h1 class="projects__title">{{ page.title }}</h1>
+    {%- if page.description -%}
+    <p class="projects__subtitle">{{ page.description }}</p>
+    {%- endif -%}
+  </header>
+
+  <div class="projects__list">
+    {%- for project in site.data.projects -%}
+    <a href="{{ project.url }}" class="projects__item" target="_blank" rel="noopener">
+      <div class="projects__item-header">
+        <h3 class="projects__item-name">{{ project.name }}</h3>
+        {%- if project.language -%}
+        <span class="projects__item-lang">{{ project.language }}</span>
+        {%- endif -%}
+      </div>
+      {%- if project.description -%}
+      <p class="projects__item-desc">{{ project.description }}</p>
+      {%- endif -%}
+    </a>
+    {%- endfor -%}
+  </div>
+
+  <div class="projects__footer">
+    <p class="projects__footer-text">
+      All projects on <a href="https://github.com/narendranag">GitHub</a>
+    </p>
+  </div>
+</main>
+{%- include footer.html -%}
