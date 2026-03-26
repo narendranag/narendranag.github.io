@@ -9,6 +9,7 @@ plugins:
   - jekyll-remote-theme
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-redirect-from
 
 excerpt_separator: "<!--more-->"
   
@@ -62,13 +63,13 @@ theme_setting:
     nav_pages:
       - url: /archive
         title: Archive
-      - url: /topics/sports
+      - url: /topics/sports/
         title: Sports
-      - url: /topics/media
+      - url: /topics/media/
         title: Media
-      - url: /topics/streaming
+      - url: /topics/streaming/
         title: Streaming
-      - url: /topics/development
+      - url: /topics/development/
         title: Building
       - url: /about
         title: About

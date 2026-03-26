@@ -8,6 +8,8 @@ keywords: "leapfrogging, technology adoption, mobile payments, streaming, M-Pesa
 author: Narendra Nag
 image: "https://images.unsplash.com/photo-1752386452380-7bbe4f1ed7f7?w=1200&h=630&fit=crop&q=80"
 image_alt: "A spiral staircase viewed from below, evoking upward progress"
+redirect_from:
+  - /2025/09/08/leapfrogging-vs-step-by-step-thinking.html
 last_modified_at: 2026-03-21
 ---
 
